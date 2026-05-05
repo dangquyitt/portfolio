@@ -936,7 +936,7 @@
                   Primary stack
                 </div>
                 <div class="mt-1 text-slate-100">
-                  Go · gRPC · PostgreSQL · Redis · k8s
+                  Go · gRPC · PostgreSQL · Redis · Kubernetes
                 </div>
               </div>
               <div>
@@ -1406,42 +1406,53 @@
                   @Nami Technology · Full-time · Ho Chi Minh, Viet Nam
                 </div>
                 <p class="mt-3 text-sm text-slate-400 italic">
-                  Vietnam-based deep-tech startup (FPT spin-off) building
-                  enterprise-grade middleware and audio intelligence solutions
-                  for banking, insurance, and contact centers.
+                  Nami Technology is a Vietnam-based deep-tech startup spun off
+                  from FPT that builds enterprise-grade Voice AI and audio
+                  intelligence solutions, including noise cancellation, voice
+                  biometrics, and speech analytics for banking, insurance, and
+                  contact centers.
                 </p>
                 <ul
                   class="mt-4 space-y-2 text-slate-300 text-sm leading-relaxed list-disc pl-5 marker:text-accent"
                 >
                   <li>
-                    Architected a pluggable real-time media middleware targeting
-                    high-concurrency environments across heterogeneous PBX and
-                    contact center platforms (Cisco, Avaya, Genesys Cloud, AWS
-                    Connect, etc.).
-                  </li>
-                  <li>
-                    Normalized multiple ingestion protocols (SIPREC, audio
-                    hooks, RTP sniffers) into a unified low-latency pipeline for
-                    enterprise-grade audio processing products.
+                    Architected a pluggable real-time call media middleware
+                    targeting 2,000+ concurrent calls across heterogeneous
+                    PBX/contact center platforms (Cisco, Avaya, Genesys Cloud,
+                    AWS Connect, Bright Pattern, Hitachi, etc.), normalizing
+                    SIPREC, audio hooks, RTP sniffers, and AWS Kinesis into a
+                    unified low-latency pipeline for NamiTech's Voice AI
+                    products (VoiceDNA, AgentAssist, AgentScoring).
                   </li>
                   <li>
                     Deployed and operated highly available middleware clusters
-                    for enterprise customers (VietinBank, TPBank, Toho Gas
-                    Japan) using active–standby setups with distributed locking.
+                    for enterprise customers (e.g., VietinBank, TPBank, Toho Gas
+                    Japan) and shared demo/POC/UAT environments across Vietnam,
+                    Thailand, and Japan using Docker-based active–standby setups
+                    on VMs, implementing distributed locking and concurrency
+                    control to meet strict real-time SLAs in on-premise
+                    environments.
                   </li>
                   <li>
-                    Contributed to backend development of a scalable two-way
-                    VoiceBot platform, working on low-latency media flows and
-                    integrating multi-stage processing pipelines.
+                    Contributed to backend development of a two-way VoiceBot
+                    platform also targeting 2,000+ concurrent calls for banking
+                    contact centers, working on low-latency bidirectional media
+                    flows and integrating ASR, NLU, and TTS pipelines to
+                    automate customer interactions at scale.
                   </li>
                   <li>
-                    Built real-time agent event services on shared Kubernetes
-                    infrastructure with GitOps/ArgoCD and custom Helm charts.
+                    Built real-time agent event services and deployed them on
+                    shared Kubernetes infrastructure with GitOps/ArgoCD and
+                    custom Helm charts, tracking live agent states across
+                    multiple PBX platforms to power downstream agent assist and
+                    analytics features.
                   </li>
                   <li>
-                    Owned SaaS deployment and observability: API gateway
-                    (APISIX), OIDC auth (Keycloak), self-hosted monitoring
-                    (Prometheus, Grafana, Loki), and CI/CD with GitHub Actions.
+                    Owned the SaaS deployment and observability model for the
+                    middleware stack, including API gateway (APISIX), OIDC-based
+                    auth with Keycloak, and a self-hosted observability stack
+                    (Prometheus, Grafana, Loki) plus CI/CD pipelines with GitHub
+                    Actions.
                   </li>
                 </ul>
                 <div class="mt-4 flex flex-wrap gap-2">
@@ -1463,7 +1474,7 @@
                   >
                   <span
                     class="font-mono text-xs px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
-                    >k8s</span
+                    >Kubernetes</span
                   >
                   <span
                     class="font-mono text-xs px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
@@ -1472,6 +1483,46 @@
                   <span
                     class="font-mono text-xs px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
                     >Keycloak</span
+                  >
+                  <span
+                    class="font-mono text-xs px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
+                    >Websocket</span
+                  >
+                  <span
+                    class="font-mono text-xs px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
+                    >Prometheus</span
+                  >
+                  <span
+                    class="font-mono text-xs px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
+                    >Grafana</span
+                  >
+                  <span
+                    class="font-mono text-xs px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
+                    >Loki</span
+                  >
+                  <span
+                    class="font-mono text-xs px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
+                    >Linux</span
+                  >
+                  <span
+                    class="font-mono text-xs px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
+                    >Keycloak</span
+                  >
+                  <span
+                    class="font-mono text-xs px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
+                    >Redis</span
+                  >
+                  <span
+                    class="font-mono text-xs px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
+                    >PostgreSQL</span
+                  >
+                  <span
+                    class="font-mono text-xs px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
+                    >AWS</span
+                  >
+                  <span
+                    class="font-mono text-xs px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
+                    >Linux</span
                   >
                 </div>
               </div>
@@ -1496,7 +1547,9 @@
                   @Allexceed · Full-time · Ho Chi Minh, Viet Nam
                 </div>
                 <p class="mt-3 text-sm text-slate-400 italic">
-                  Japanese-owned offshore software company providing outsourcing
+                  Allexceed Vietnam is a Japanese-owned software development
+                  company based in Vietnam, acting as the offshore subsidiary of
+                  Allexceed Corporation (Japan) and providing outsourcing
                   services across multiple industries.
                 </p>
                 <ul
@@ -1505,17 +1558,19 @@
                   <li>
                     Contributed to maintaining and extending a large-scale TV
                     station management system, implementing new features and bug
-                    fixes in a long-lived 30+ year codebase.
+                    fixes based on customer requirements in a long-lived 30+
+                    year codebase.
                   </li>
                   <li>
                     Implemented application changes using Java Spring Boot,
                     Spring Security, JavaFX, and Oracle, following existing
-                    architecture and coding standards.
+                    architecture and coding standards defined by the client.
                   </li>
                   <li>
                     Collaborated with a cross-functional team to analyze legacy
                     source code, understand requirements from Japanese
-                    stakeholders, and deliver tasks on time.
+                    stakeholders, and deliver assigned tasks on time in an
+                    outsourcing environment.
                   </li>
                 </ul>
                 <div class="mt-4 flex flex-wrap gap-2">
@@ -1562,38 +1617,47 @@
                   @DW Technology · Full-time · Ho Chi Minh, Viet Nam
                 </div>
                 <p class="mt-3 text-sm text-slate-400 italic">
-                  Vietnam-based startup building B2C CRM and affiliate marketing
-                  platforms for sales teams.
+                  DW Technology is a Vietnam-based startup building B2C CRM and
+                  affiliate marketing platforms that help sales teams manage
+                  leads, track campaigns, and grow revenue through
+                  performance-based marketing.
                 </p>
                 <ul
                   class="mt-4 space-y-2 text-slate-300 text-sm leading-relaxed list-disc pl-5 marker:text-accent"
                 >
                   <li>
-                    Acted as primary backend developer for two B2C products (CRM
-                    and affiliate marketing), designing database schemas and
-                    building REST/GraphQL APIs.
+                    Acted as the primary backend developer for two B2C products
+                    (CRM and affiliate marketing), designing database schemas
+                    and building REST/GraphQL APIs to support core customer,
+                    lead, and campaign management features.
                   </li>
                   <li>
                     Implemented backend services using Golang (Echo, GORM),
                     PostgreSQL, Redis, RabbitMQ, and AWS, focusing on
-                    performance and reliability in production.
+                    performance, scalability, and reliability in production.
                   </li>
                   <li>
-                    Integrated third-party payment systems (ACB Bank, OnePay) to
-                    enable in-app payment flows and subscription handling.
+                    Integrated third-party payment systems (e.g., ACB Bank,
+                    OnePay) to enable in-app payment flows and subscription
+                    handling for end users.
                   </li>
                   <li>
-                    Wrote high-coverage unit tests and enforced clean coding
-                    practices, including Docker and Docker Compose
-                    configurations for local and production environments.
+                    Wrote high-coverage unit tests and enforced clean,
+                    standardized coding practices, including maintaining Docker
+                    and Docker Compose configurations for local and production
+                    environments.
                   </li>
                   <li>
-                    Collaborated with PMs and frontend engineers; occasionally
-                    contributed to frontend tasks using React, Axios, and MUI.
+                    Collaborated closely with project managers and frontend
+                    engineers to refine requirements, ensure smooth API–UI
+                    integration, and occasionally contributed to frontend tasks
+                    using React, Axios, and MUI.
                   </li>
                   <li>
-                    Joined as one of the initial engineers and contributed to
-                    releasing stable, production-ready versions in late 2023.
+                    Joined as one of the initial engineers on the projects and
+                    contributed to releasing stable, production-ready versions
+                    in late 2023, supporting ongoing growth and adoption by B2C
+                    customers.
                   </li>
                 </ul>
                 <div class="mt-4 flex flex-wrap gap-2">
@@ -1624,6 +1688,26 @@
                   <span
                     class="font-mono text-xs px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
                     >AWS</span
+                  >
+                  <span
+                    class="font-mono text-xs px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
+                    >Testify</span
+                  >
+                  <span
+                    class="font-mono text-xs px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
+                    >Sqlc</span
+                  >
+                  <span
+                    class="font-mono text-xs px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
+                    >Goose</span
+                  >
+                  <span
+                    class="font-mono text-xs px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
+                    >Squirrel</span
+                  >
+                  <span
+                    class="font-mono text-xs px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
+                    >Mockery</span
                   >
                 </div>
               </div>
@@ -1685,31 +1769,33 @@
                   >Personal Project</span
                 >
               </div>
-              <p class="mt-2 text-slate-400 text-sm leading-relaxed">
-                A mobile-first application (with a supporting web interface)
-                that helps users practice English speaking using the shadowing
-                method, allowing them to import YouTube videos by link and
-                automatically extract metadata and transcripts.
-              </p>
               <ul class="mt-3 text-xs text-slate-400 space-y-1 font-mono">
                 <li>
-                  <span class="text-accent">▸</span> Sentence-by-sentence
-                  pronunciation scoring: transcribes speech and evaluates
-                  accuracy against original audio
+                  <span class="text-accent">▸</span> Built a mobile-first
+                  application (with a supporting web interface) that helps users
+                  practice English speaking using the shadowing method, allowing
+                  them to import YouTube videos by link and automatically
+                  extract metadata and transcripts.
                 </li>
                 <li>
-                  <span class="text-accent">▸</span> Custom AI component to
-                  classify sentences into CEFR levels (A1–C2) for structured
-                  progression
+                  <span class="text-accent">▸</span> Implemented
+                  sentence-by-sentence pronunciation scoring: users read each
+                  sentence aloud, the system transcribes their speech and
+                  evaluates accuracy so they can compare their output against
+                  the original audio in detail.
                 </li>
                 <li>
-                  <span class="text-accent">▸</span> Full-stack architecture:
-                  Whisper + yt-dlp for transcription/video ingestion, Golang
-                  (Echo) backend APIs
+                  <span class="text-accent">▸</span> Developed a custom AI
+                  component to classify each sentence into CEFR levels (A1–C2),
+                  enabling level-appropriate practice and structured progression
+                  for learners.
                 </li>
                 <li>
-                  <span class="text-accent">▸</span> Next.js web client + React
-                  Native mobile app, deployed with Docker on Linux
+                  <span class="text-accent">▸</span> Orchestrated a full-stack
+                  architecture using Whisper and yt-dlp for transcription and
+                  video ingestion, Golang (Echo) for backend APIs, Next.js and
+                  React Native for web/mobile clients, and Docker on Linux for
+                  deployment.
                 </li>
               </ul>
               <div class="mt-5 flex flex-wrap gap-2">
@@ -1740,6 +1826,10 @@
                 <span
                   class="font-mono text-[11px] px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
                   >Docker</span
+                >
+                <span
+                  class="font-mono text-[11px] px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300"
+                  >BERT</span
                 >
               </div>
             </article>
