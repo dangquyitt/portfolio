@@ -651,6 +651,7 @@
           <li><a href="#about" class="nav-link">About</a></li>
           <li><a href="#skills" class="nav-link">Skills</a></li>
           <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#opensource" class="nav-link">Open Source</a></li>
           <li><a href="#projects" class="nav-link">Projects</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
@@ -727,6 +728,13 @@
             href="#experience"
             class="block px-3 py-2 rounded-lg hover:bg-slate-800/60"
             >Experience</a
+          >
+        </li>
+        <li>
+          <a
+            href="#opensource"
+            class="block px-3 py-2 rounded-lg hover:bg-slate-800/60"
+            >Open Source</a
           >
         </li>
         <li>
@@ -1790,10 +1798,120 @@
         </div>
       </section>
 
+      <!-- OPEN SOURCE -->
+      <section id="opensource" class="py-20 sm:py-28 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+          <p class="section-eyebrow">// 04 — open source</p>
+          <h2 class="mt-4 font-display font-bold text-3xl sm:text-5xl">
+            Open source contributions
+          </h2>
+          <p class="mt-3 text-slate-400 max-w-2xl">
+            Giving back to the Go ecosystem — fixing bugs and digging into
+            concurrency edge cases in libraries I use in production
+          </p>
+
+          <div class="mt-10 grid md:grid-cols-2 gap-6">
+            <article
+              class="glass rounded-2xl p-6 sm:p-7 hover:border-accent/40 hover:shadow-glow transition-all duration-300 group"
+            >
+              <div class="flex flex-wrap items-baseline justify-between gap-2">
+                <h3
+                  class="font-display text-lg text-slate-100 group-hover:text-accent transition-colors"
+                >
+                  ledongthuc/pdf
+                </h3>
+                <span
+                  class="font-mono text-[10px] uppercase tracking-wider px-2 py-0.5 rounded bg-accent/15 text-accent border border-accent/30"
+                  >Merged</span
+                >
+              </div>
+              <p class="mt-3 text-sm text-slate-300 leading-relaxed">
+                Fixed resource handling for invalid PDF inputs; merged upstream
+              </p>
+              <a
+                href="https://github.com/ledongthuc/pdf/pull/33"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mt-3 inline-flex items-center gap-2 cursor-pointer font-mono text-xs text-accent hover:text-accent-glow transition-colors"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  class="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                  />
+                </svg>
+                PR #33
+              </a>
+              <div class="mt-5 flex flex-wrap gap-2">
+                <span class="font-mono text-[11px] px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300">Go</span>
+                <span class="font-mono text-[11px] px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300">PDF parsing</span>
+                <span class="font-mono text-[11px] px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300">Resource handling</span>
+              </div>
+            </article>
+
+            <article
+              class="glass rounded-2xl p-6 sm:p-7 hover:border-accent/40 hover:shadow-glow transition-all duration-300 group"
+            >
+              <div class="flex flex-wrap items-baseline justify-between gap-2">
+                <h3
+                  class="font-display text-lg text-slate-100 group-hover:text-accent transition-colors"
+                >
+                  coder/websocket
+                </h3>
+                <span
+                  class="font-mono text-[10px] uppercase tracking-wider px-2 py-0.5 rounded bg-slate-800/70 text-slate-300 border border-slate-700"
+                  >Issue</span
+                >
+              </div>
+              <p class="mt-3 text-sm text-slate-300 leading-relaxed">
+                Investigated lock acquisition vs context cancellation and
+                discussed the concurrency edge case with the maintainer
+              </p>
+              <a
+                href="https://github.com/coder/websocket/issues/573"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mt-3 inline-flex items-center gap-2 cursor-pointer font-mono text-xs text-accent hover:text-accent-glow transition-colors"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  class="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                  />
+                </svg>
+                Issue #573
+              </a>
+              <div class="mt-5 flex flex-wrap gap-2">
+                <span class="font-mono text-[11px] px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300">Go</span>
+                <span class="font-mono text-[11px] px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300">WebSocket</span>
+                <span class="font-mono text-[11px] px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300">Concurrency</span>
+                <span class="font-mono text-[11px] px-2 py-1 rounded-md bg-slate-800/70 border border-slate-700 text-slate-300">Context</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <!-- PROJECTS -->
       <section id="projects" class="py-20 sm:py-28 px-4 sm:px-6 lg:px-8">
         <div class="max-w-6xl mx-auto">
-          <p class="section-eyebrow">// 04 — projects</p>
+          <p class="section-eyebrow">// 05 — projects</p>
           <h2 class="mt-4 font-display font-bold text-3xl sm:text-5xl">
             Selected projects
           </h2>
@@ -1900,7 +2018,7 @@
       <!-- CONTACT -->
       <section id="contact" class="py-20 sm:py-28 px-4 sm:px-6 lg:px-8">
         <div class="max-w-4xl mx-auto">
-          <p class="section-eyebrow">// 05 — contact</p>
+          <p class="section-eyebrow">// 06 — contact</p>
           <h2 class="mt-4 font-display font-bold text-3xl sm:text-5xl">
             Let's build something
           </h2>
